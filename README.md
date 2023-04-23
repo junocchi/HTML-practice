@@ -1,4 +1,4 @@
-# CSS-and-HTML
+# HTML
 
-Introduction to web development challenges from the Wiley Edge Academy pre-course
+Web development challenges from the Wiley Edge Academy pre-course
 
