@@ -1,25 +1,31 @@
 <!DOCTYPE html>
+<!--
+Name: Ju Nocchi
+Date Created: 2023-04-27
+Grade: 10
+Most recent revision:
+-->
 <html lang="en">
   <head>
     <title>Join a social network</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1>Join a social network</h1>
 
     <form
-      method="POST"
       action="https://wp.zybooks.com/form-viewer.php"
+      method="POST"
       enctype="multipart/form-data"
     >
       <div>
         <label for="fullName">Full name:</label>
-        <input type="text" id="fullName" name="fullName">
+        <input type="text" id="fullName" name="fullName" required>
       </div>
 
       <div>
         <label for="email">Email address:</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" required>
       </div>
 
       <div>
@@ -28,8 +34,8 @@
       </div>
 
       <div>
-        <label></label>
-        <input>
+        <label for="picture">Photo:</label>
+        <input type="file" id="picture" name="picture">
       </div>
 
       <div>
