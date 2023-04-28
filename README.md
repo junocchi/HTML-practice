@@ -1,4 +1,4 @@
 # HTML
 
-Web development challenges from the Wiley Edge Academy pre-course
+Web development challenges - introduction and intermediate HTML.
 
